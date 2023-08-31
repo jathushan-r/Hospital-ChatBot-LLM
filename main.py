@@ -14,11 +14,7 @@ from langchain.llms import Replicate
 import os
 
 
-# @hydra.main(config_path='./configs', config_name='config')
 def main():
-    # instantiate the model and populate the arguments using hydra
-
-
    
     os.environ["REPLICATE_API_TOKEN"] = "dwejfwe"
     llm = Replicate(
