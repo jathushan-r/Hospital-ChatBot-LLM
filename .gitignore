@@ -1,0 +1,6 @@
+configs/
+src/data/
+src/db/
+src/models/
+run.bat
+test.py
