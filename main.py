@@ -20,7 +20,7 @@ def main():
 
 
    
-    os.environ["REPLICATE_API_TOKEN"] = "r8_1YCYLewjH2hFfIiqklKuqhjihBrObgV2pueQ5"
+    os.environ["REPLICATE_API_TOKEN"] = "dwejfwe"
     llm = Replicate(
     model="replicate/llama-2-70b-chat:2796ee9483c3fd7aa2e171d38f4ca12251a30609463dcfd4cd76703f22e96cdf",
     input={"temperature": 0.2,
