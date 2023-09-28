@@ -34,11 +34,11 @@ def qa_llm():
 
     chat_model = MyGPT4ALL(
         model_folder_path=r'C:\Users\Jathushan\Documents\DS project\end-to-end-llm-main\src\models',
-        model_name='llama-2-7b-chat.ggmlv3.q4_0.bin',
+        model_name='llama-2-7b-chat.ggmlv3.q4_1.bin',
         allow_download=False,
         allow_streaming=True,
     )
-    # os.environ["REPLICATE_API_TOKEN"] = "r8_1YCYLewjH2hFfIiqklKuqhjihBrObgV2pueQ5"
+    # os.environ["REPLICATE_API_TOKEN"] = "r8_6rXolartKZeUccahg23a7e9rrUMMUyU241P5V"
     # chat_model = Replicate(
     # model="replicate/llama-2-70b-chat:2796ee9483c3fd7aa2e171d38f4ca12251a30609463dcfd4cd76703f22e96cdf",
     # input={"temperature": 0.2,
@@ -117,12 +117,6 @@ def main():
             st.markdown(response)
         # Add assistant response to chat history
         st.session_state.messages.append({"role": "assistant", "content": response})
-        
-
-        
-
-
-
 
 if __name__ == "__main__":
     main()
