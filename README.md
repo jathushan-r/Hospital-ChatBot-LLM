@@ -24,6 +24,19 @@ Data security and patient privacy are of utmost importance. The chatbot will be 
 
 For more details about this project, please refer to the project documentation and source code. Your contributions and feedback are highly encouraged and appreciated.
 
+## Implementation
+
+This project is implemented using the following technologies and models:
+
+- **Retrieval Augmented Generation**: The chatbot utilizes retrieval augmented generation techniques to provide contextually relevant responses. It can retrieve information from a knowledge base and generate responses using a language model.
+
+- **ChromaDb**: ChromaDb is employed as a database system to store and manage the knowledge base of medical information and hospital procedures. It ensures quick and efficient access to relevant data.
+
+- **Langchain**: Langchain technology is used to facilitate language adaptability, enabling the chatbot to understand and respond fluently in both Sinhala and Tamil languages.
+
+- **LLAMA2 Chat 7b LLM (Large Language Model)**: The chatbot leverages the power of the LLAMA2 Chat 7b Large Language Model to understand user queries, generate natural language responses, and provide personalized patient support.
+
+
 ### Group Members
 - Jathushan(200240M)
 - Savindu (200499M)
